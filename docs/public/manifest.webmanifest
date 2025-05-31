@@ -1,0 +1,26 @@
+{
+  "name": "MC版本库-文档站",
+  "short_name": "MC版本库-文档站",
+  "start_url": ".",
+  "description": "Minecraft for Android 版本库",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "256x256",
+      "type": "image/ico"
+    }
+  ]
+}
