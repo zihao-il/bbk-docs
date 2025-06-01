@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 🚀查看文档
-      link: /markdown-examples
+      link: /新手教程/index.md
     - theme: alt
       text: 🔗Github
       link: https://github.com/zihao-il/bbk-docs

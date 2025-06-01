@@ -15,7 +15,7 @@ export default defineConfig({
 
     head: [
         ['link', {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
-        ['link', { rel: 'icon', type: 'image/png', href: '/favicon-256x256.png' }],
+        ['link', {rel: 'icon', type: 'image/png', href: '/favicon-256x256.png'}],
         ['meta', {name: 'theme-color', content: '#5F67EE'}],
         ['link', {rel: 'manifest', href: '/manifest.webmanifest'}],
     ],
@@ -25,18 +25,47 @@ export default defineConfig({
         logo: '/favicon.ico',
         nav: [
             {text: '首页', link: '/'},
-            {text: 'Examples', link: '/markdown-examples'}
+            {text: '新手教程', link: '/新手教程/index.md'},
+            {text: 'API文档', link: '/API文档/index.md'}
         ],
 
-        sidebar: [
-            {
-                text: 'Examples',
-                items: [
-                    {text: 'Markdown Examples', link: '/markdown-examples'},
-                    {text: 'Runtime API Examples', link: '/api-examples'}
-                ]
-            }
-        ],
+        sidebar: {
+            '/': [
+                {
+                    text: '欢迎',
+                    items: [
+                        {text: '新手教程', link: '/新手教程/index.md'},
+                        {text: 'API文档', link: '/常见问题.md'}
+                    ]
+                }
+            ],
+
+            '/新手教程/': [
+                {
+                    text: '新手教程',
+                    items: [
+                        {text: '教程文档', link: '/新手教程/index.md'},
+                        {text: '登录错误', link: '/新手教程/登录错误.md'},
+                        {text: '账户问题', link: '/新手教程/账户问题.md'},
+                    ]
+                },
+            ],
+
+
+            '/API文档/': [
+                {
+                    text: 'API文档',
+                    items: [
+                        {
+                            text: 'API说明', link: '/API文档/index.md',
+                            items: [
+                                {text: '/last', link: '/API文档/last.md'},
+                            ]
+                        },
+                    ]
+                },
+            ]
+        },
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/zihao-il/bbk-docs'}
