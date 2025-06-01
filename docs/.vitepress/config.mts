@@ -18,6 +18,7 @@ export default defineConfig({
         ['link', {rel: 'icon', type: 'image/png', href: '/favicon-256x256.png'}],
         ['meta', {name: 'theme-color', content: '#5F67EE'}],
         ['link', {rel: 'manifest', href: '/manifest.webmanifest'}],
+        ['link', {rel: 'alternate', type: 'application/rss+xml', href: 'https://rss.mcarc.top/'}],
     ],
 
     themeConfig: {
@@ -95,6 +96,11 @@ export default defineConfig({
                     }
                 }
             }
+        },
+
+        footer: {
+            message: 'MIT License',
+            copyright: 'Copyright © 2025 MC版本库-文档站',
         },
 
         docFooter: {
