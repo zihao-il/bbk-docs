@@ -23,5 +23,8 @@ features:
     details: 提供更多更便捷游戏下渠道，方便玩家快速获取游戏资源。
   - title: 使用方便
     details: 网页布局简单，操作方便，文字说明清晰。
+  - title: 腾讯文档
+    details: 腾讯文档版本链接
+    link: https://docs.qq.com/doc/DY3RZaGhBQnphdlpI
 ---
 
