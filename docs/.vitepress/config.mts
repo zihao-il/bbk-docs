@@ -76,6 +76,27 @@ export default defineConfig({
             text: '在 GitHub 上编辑此页面'
         },
 
+        search: {
+            provider: 'local',
+            options: {
+                translations: {
+                    button: {
+                        buttonText: '搜索文档',
+                        buttonAriaLabel: '搜索文档'
+                    },
+                    modal: {
+                        noResultsText: '没有找到任何结果',
+                        resetButtonTitle: '清除关键词',
+                        footer: {
+                            selectText: '回车选择',
+                            navigateText: '上下键切换',
+                            closeText: 'ESC 关闭搜索'
+                        }
+                    }
+                }
+            }
+        },
+
         docFooter: {
             prev: '上一页',
             next: '下一页'
@@ -96,6 +117,7 @@ export default defineConfig({
             linkLabel: '前往首页',
             linkText: '带我回首页'
         },
+
 
         langMenuLabel: '多语言',
         returnToTopLabel: '回到顶部',
