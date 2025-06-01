@@ -24,7 +24,7 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         logo: '/favicon.ico',
         nav: [
-            {text: 'Home', link: '/'},
+            {text: '首页', link: '/'},
             {text: 'Examples', link: '/markdown-examples'}
         ],
 
