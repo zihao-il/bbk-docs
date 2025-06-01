@@ -18,7 +18,7 @@ export default defineConfig({
         ['link', {rel: 'icon', type: 'image/png', href: '/favicon-256x256.png'}],
         ['meta', {name: 'theme-color', content: '#5F67EE'}],
         ['link', {rel: 'manifest', href: '/manifest.webmanifest'}],
-        ['link', {rel: 'alternate', type: 'application/rss+xml', href: 'https://rss.mcarc.top/'}],
+        ['link', {rel: 'manifest', type: 'application/rss+xml', href: 'https://rss.endyun.ltd/rss'}],
     ],
 
     themeConfig: {
@@ -26,8 +26,8 @@ export default defineConfig({
         logo: '/favicon.ico',
         nav: [
             {text: '首页', link: '/'},
-            {text: '新手教程', link: '/新手教程/index.md'},
-            {text: 'API文档', link: '/API文档/index.md'}
+            {text: '新手教程', link: '/新手教程/', activeMatch: '/新手教程/'},
+            {text: 'API文档', link: '/API文档/', activeMatch: '/API文档/'}
         ],
 
         sidebar: {
