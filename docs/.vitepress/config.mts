@@ -18,7 +18,7 @@ export default defineConfig({
         ['link', {rel: 'icon', type: 'image/png', href: '/favicon-256x256.png'}],
         ['meta', {name: 'theme-color', content: '#5F67EE'}],
         ['link', {rel: 'manifest', href: '/manifest.webmanifest'}],
-        ['link', {rel: 'manifest', type: 'application/rss+xml', href: 'https://rss.endyun.ltd/rss'}],
+        ['link', {rel: 'alternate', type: 'application/rss+xml', href: 'https://rss.mcarc.top'}],
     ],
 
     themeConfig: {
