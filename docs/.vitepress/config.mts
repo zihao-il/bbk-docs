@@ -65,11 +65,15 @@ export default defineConfig({
                         {
                             text: 'API说明', link: '/API文档/index.md',
                             items: [
-                                {text: '/last', link: '/API文档/last.md'},
+                                {text: '/last_version', link: '/API文档/last_version.md'},
+                                {text: '/get_version', link: '/API文档/get_version.md'},
+                                {text: '/search_version', link: '/API文档/search_version.md'},
                             ]
                         },
                     ]
                 },
+                {text: 'RSS订阅', link: '/API文档/RSS订阅.md'},
+                {text: 'WebSocket服务器', link: '/API文档/WebSocket服务器.md'},
             ]
         },
 
