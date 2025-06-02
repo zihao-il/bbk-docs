@@ -21,7 +21,7 @@ export default defineConfig({
     head: [
         ['link', {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
         ['link', {rel: 'icon', type: 'image/png', href: '/favicon-256x256.png'}],
-        ['meta', {name: 'theme-color', content: '#397BFE'}],
+        ['meta', {name: 'theme-color', content: '#FFFFFF'}],
         ['link', {rel: 'manifest', href: '/manifest.webmanifest'}],
         ['link', {rel: 'alternate', type: 'application/rss+xml', href: 'https://rss.mcarc.top/'}],
     ],

@@ -15,7 +15,7 @@ export default {
         const updateThemeColor = (dark: boolean) => {
             const meta = document.querySelector('meta[name="theme-color"]');
             if (meta) {
-                meta.setAttribute('content', dark ? '#1B1B1F' : '#397BFE');
+                meta.setAttribute('content', dark ? '#1B1B1F' : '#FFFFFF');
             }
         };
 
