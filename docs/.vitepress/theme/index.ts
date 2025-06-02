@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme';
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import {useData, useRoute} from 'vitepress';
+import {onMounted, watch} from 'vue';
 import './styles.css'
 
 export default {
@@ -9,8 +10,21 @@ export default {
 
     setup() {
 
-        const {frontmatter} = useData();
+        const {frontmatter, isDark} = useData();
         const route = useRoute();
+        const updateThemeColor = (dark: boolean) => {
+            const meta = document.querySelector('meta[name="theme-color"]');
+            if (meta) {
+                meta.setAttribute('content', dark ? '#1B1B1F' : '#397BFE');
+            }
+        };
+
+        onMounted(() => {
+            updateThemeColor(isDark.value);
+            watch(isDark, (newVal) => {
+                updateThemeColor(newVal);
+            });
+        });
 
         giscusTalk({
                 repo: 'zihao-il/bbk-docs',
