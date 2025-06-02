@@ -5,12 +5,17 @@ export default defineConfig({
     title: "MC版本库-文档站",
     description: "MC版本库文档说明",
     lang: 'zh-CN',
+    lastUpdated: true,
     markdown: {
         theme: {
             light: 'min-light',
             dark: 'one-dark-pro'
         },
         lineNumbers: true,
+    },
+
+    sitemap: {
+        hostname: 'https://docs.mcarc.top'
     },
 
     head: [
