@@ -21,9 +21,8 @@ export default defineConfig({
     head: [
         ['link', {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
         ['link', {rel: 'icon', type: 'image/png', href: '/favicon-256x256.png'}],
-        ['meta', {name: 'theme-color', content: '#397BFE'}],
         ['link', {rel: 'manifest', href: '/manifest.webmanifest'}],
-        ['link', {rel: 'alternate', type: 'application/rss+xml', href: 'https://rss.mcarc.top'}],
+        ['link', {rel: 'alternate', type: 'application/rss+xml', href: 'https://rss.mcarc.top/'}],
     ],
 
     themeConfig: {
@@ -41,7 +40,7 @@ export default defineConfig({
                     text: '欢迎',
                     items: [
                         {text: '新手教程', link: '/新手教程/index.md'},
-                        {text: 'API文档', link: '/常见问题.md'}
+                        {text: 'API文档', link: '/API文档/index.md'}
                     ]
                 }
             ],
