@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme';
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import {useData, useRoute} from 'vitepress';
+import './styles.css'
 
 export default {
     extends: DefaultTheme,
