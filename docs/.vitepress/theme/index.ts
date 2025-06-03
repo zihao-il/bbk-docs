@@ -13,7 +13,7 @@ export default {
 
     setup() {
         BProgress.configure({
-            showSpinner: true
+            showSpinner: false
         });
         const {frontmatter, isDark} = useData();
         const route = useRoute();
