@@ -4,6 +4,7 @@
 }
 
 :root {
+    --bprogress-color: #397BFE !important;
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(
             120deg,
@@ -16,6 +17,7 @@
             #397BFE 50%
     );
     --vp-home-hero-image-filter: blur(44px);
+
 }
 
 @media (min-width: 640px) {
@@ -39,4 +41,12 @@
 img[src='/search.png'] {
     width: 100%;
     aspect-ratio: 1 / 1;
+}
+
+.medium-zoom-overlay {
+    z-index: 30;
+}
+
+.medium-zoom-image {
+    z-index: 9999 !important;
 }
