@@ -10,10 +10,4 @@
 [![License](https://img.shields.io/github/license/zihao-il/bbk-docs)](https://github.com/zihao-il/bbk-docs/blob/main/LICENSE)
 ![NPM Version](https://img.shields.io/npm/v/vitepress?label=Vitepress)
 
-
 </div> 
-
-
-
-
-s
