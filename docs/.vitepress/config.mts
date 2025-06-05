@@ -11,6 +11,9 @@ export default defineConfig({
             light: 'min-light',
             dark: 'one-dark-pro'
         },
+        image: {
+            lazyLoading: true
+        },
         lineNumbers: true,
     },
 
@@ -142,14 +145,14 @@ export default defineConfig({
             linkText: '带我回首页'
         },
 
-
+        externalLinkIcon: true,
         langMenuLabel: '多语言',
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '菜单',
         darkModeSwitchLabel: '主题',
         lightModeSwitchTitle: '切换到浅色模式',
         darkModeSwitchTitle: '切换到深色模式',
-        skipToContentLabel: '跳转到内容'
+        skipToContentLabel: '跳转到内容',
     }
 
 })
