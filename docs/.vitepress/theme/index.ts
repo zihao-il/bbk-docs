@@ -7,10 +7,13 @@ import './styles.css'
 import '@bprogress/core/css';
 import {BProgress} from '@bprogress/core';
 import mediumZoom from 'medium-zoom';
+// import PostButton from "./components/PostButton.vue"
 
 export default {
     extends: DefaultTheme,
-
+    enhanceApp({app , router }) {
+        // app.component('PostButton' , PostButton)
+    },
     setup() {
         BProgress.configure({
             showSpinner: false
