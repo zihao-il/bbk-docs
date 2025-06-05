@@ -11,7 +11,7 @@ hero:
       text: 🚀查看文档
       link: /新手教程/index.md
     - theme: alt
-      text: 🔗Github
+      text: 🛠️Github
       link: https://github.com/zihao-il/bbk-docs
   image:
     src: /favicon.ico
