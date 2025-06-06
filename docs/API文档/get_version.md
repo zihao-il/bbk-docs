@@ -41,7 +41,7 @@ requests.post("https://api.mcarc.top/get_version",
 
 ## 响应
 
-```json5
+```json5 [json5]
 {
   "status": 200,
   "message": [

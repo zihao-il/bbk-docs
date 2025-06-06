@@ -34,7 +34,7 @@ response = requests.get("https://api.mcarc.top/search_version?s=1.20.1&m=1&b=2")
 
 ## 响应
 
-```json5
+```json5 [json5]
 {
   "status": 200,
   "message": [

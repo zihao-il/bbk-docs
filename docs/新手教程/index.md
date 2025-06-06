@@ -61,7 +61,7 @@
 ## 覆盖安装失败
 
 如果你选择保留数据卸载Minecraft导致无法再次安装请使用adb命令：
-```bash
+```bash [adb]
 adb uninstall com.mojang.minecraftpe
 ```
 如果不会请点我[下载](https://zihao-il.lanzouo.com/iaEZc2bb1ykf)自助工具
