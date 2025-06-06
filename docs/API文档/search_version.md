@@ -1,8 +1,8 @@
 # /search_version
 
-用来获取搜索版本数据
+用来搜索版本数据
 
-请求类型为`get`
+请求类型为：`get`
 
 ::: tip 小提示
 搜索是通过`version`的值来进行查询的
@@ -10,11 +10,21 @@
 
 ## 请求
 
+::: code-group
+
 ```javascript
 await fetch('https://api.mcarc.top/search_version?s=1.20.1&m=1&b=2', {
     method: 'GET',
 });
 ```
+
+```python
+import requests
+
+response = requests.get("https://api.mcarc.top/search_version?s=1.20.1&m=1&b=2")
+```
+
+:::
 
 | 参数 | 可选 |                            说明 |
 |----|:--:|------------------------------:|

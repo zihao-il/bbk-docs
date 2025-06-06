@@ -10,13 +10,14 @@
   "keywords": [],
   "author": "zihao_il",
   "license": "ISC",
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.11.1",
   "devDependencies": {
     "medium-zoom": "^1.1.0",
     "vitepress": "^1.6.3",
     "vitepress-plugin-comment-with-giscus": "^1.1.15"
   },
   "dependencies": {
-    "@bprogress/core": "^1.3.4"
+    "@bprogress/core": "^1.3.4",
+    "vitepress-plugin-group-icons": "^1.6.0"
   }
 }

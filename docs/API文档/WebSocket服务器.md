@@ -5,6 +5,6 @@
 
 ## 连接地址
 
-```bash
+```bash [主域名]
 /wsserver bbk.endyun.ltd:1765
 ```

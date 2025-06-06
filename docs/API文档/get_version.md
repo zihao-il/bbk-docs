@@ -2,9 +2,11 @@
 
 用来获取大版本数据
 
-请求类型为`post`
+请求类型为：`post`
 
 ## 请求
+
+::: code-group
 
 ```javascript{8}
 await fetch('https://api.mcarc.top/get_version', {
@@ -18,6 +20,19 @@ await fetch('https://api.mcarc.top/get_version', {
      })
 });
 ```
+
+```python{7}
+import requests
+
+requests.post("https://api.mcarc.top/get_version",
+    headers = { 'Content-Type': 'application/x-www-form-urlencoded' },
+    data = { 
+        'v':'1.21.x',
+        'b': '1' 
+    })
+```
+
+:::
 
 | 参数 | 可选 |                          说明 |
 |----|:--:|----------------------------:|

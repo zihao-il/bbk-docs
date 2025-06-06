@@ -2,17 +2,17 @@
 
 ## 域名
 
-主域名：
+::: code-group
 
-```bash
+```bash [主域名]
 https://api.mcarc.top
 ```
 
-或者
-
-```bash
+```bash [备用域名]
 http://bbk.endyun.ltd:9000/api
 ```
+
+:::
 
 ## 请求头类型
 

@@ -8,6 +8,7 @@ import '@bprogress/core/css';
 import {BProgress} from '@bprogress/core';
 import mediumZoom from 'medium-zoom';
 // import PostButton from "./components/PostButton.vue"
+import 'virtual:group-icons.css'
 
 export default {
     extends: DefaultTheme,

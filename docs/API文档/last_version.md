@@ -2,13 +2,15 @@
 
 用来获取最新版本数据
 
-请求类型为`post`
+请求类型为：`post`
 
 ::: tip 小提示
 在正式版中`version`的值会少一个版本号位数
 :::
 
 ## 请求
+
+::: code-group
 
 ```javascript{6}
 await fetch('https://api.mcarc.top/last_version', {
@@ -19,6 +21,18 @@ await fetch('https://api.mcarc.top/last_version', {
     body: new URLSearchParams({ b: '1' })
 });
 ```
+
+```python{6}
+import requests
+
+requests.post("https://api.mcarc.top/last_version",
+    headers = { 'Content-Type': 'application/x-www-form-urlencoded' },
+    data = { 
+        'b': '1' 
+    })
+```
+
+:::
 
 | 参数 | 可选 |                          说明 |
 |----|:--:|----------------------------:|
