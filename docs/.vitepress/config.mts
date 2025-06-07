@@ -61,11 +61,11 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         logo: '/favicon.ico',
         nav: [
-  { text: '首页', link: '/' },
-  { text: '新手教程', link: '/新手教程/', activeMatch: '/新手教程/' },
-  { text: 'API文档', link: '/API文档/', activeMatch: '/API文档/' },
-  { text: '去oreUI文档', link: '/去oreUI文档/', activeMatch: '/去oreUI文档/' }
-],
+            {text: '首页', link: '/'},
+            {text: '新手教程', link: '/新手教程/', activeMatch: '/新手教程/'},
+            {text: 'API文档', link: '/API文档/', activeMatch: '/API文档/'},
+            {text: '去oreUI文档', link: '/去oreUI文档/', activeMatch: '/去oreUI文档/'}
+        ],
 
         sidebar: {
             '/': [
