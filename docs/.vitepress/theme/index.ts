@@ -7,13 +7,26 @@ import './styles.css'
 import '@bprogress/core/css';
 import {BProgress} from '@bprogress/core';
 import mediumZoom from 'medium-zoom';
-// import PostButton from "./components/PostButton.vue"
 import 'virtual:group-icons.css'
+
+// import PostButton from "./components/PostButton.vue"
+// import Curtain from "./components/Curtain.vue"
+// import RubyCurtain from "./components/RubyCurtain.vue"
+// import QWindow from './components/QWindow.vue'
+//
+// import { FakeQQUI } from 'fake-qq-ui'
+// import 'fake-qq-ui/styles/fake-qq-ui.css'
+// import 'fake-qq-ui/styles/light.scss'
+// import 'fake-qq-ui/styles/dark.scss'
 
 export default {
     extends: DefaultTheme,
     enhanceApp({app , router }) {
         // app.component('PostButton' , PostButton)
+        // app.component('Curtain' , Curtain)
+        // app.component('RubyCurtain' , RubyCurtain)
+        // app.component('QWindow' , QWindow)
+        // app.use(FakeQQUI)
     },
     setup() {
         BProgress.configure({

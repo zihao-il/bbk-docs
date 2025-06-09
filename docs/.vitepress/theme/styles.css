@@ -89,3 +89,65 @@ img[src='/search.png'] {
 .medium-zoom-image {
     z-index: 9999 !important;
 }
+
+/*heimu*/
+
+.heimu {
+    margin: 0 2px;
+    padding: 1.5px 4px;
+    transition: color 0.13s linear,
+    background-color 0.13s linear;
+    color: rgba(60, 60, 67);
+    border-radius: 4px;
+    background-color: rgba(60, 60, 67);
+    text-shadow: none;
+}
+
+html.dark .heimu {
+    color: #E3E3E3;
+    background-color: #E3E3E3;
+}
+
+.heimu code {
+    padding: 0.1rem 0.25rem;
+    color: rgba(60, 60, 67);
+    background-color: rgba(60, 60, 67);
+}
+
+html.dark .heimu code {
+    color: #E3E3E3;
+    background-color: #E3E3E3;
+}
+
+.heimu a {
+    color: rgba(60, 60, 67);
+}
+
+html.dark .heimu a {
+    color: #E3E3E3;
+}
+
+.heimu:hover,
+.heimu:focus,
+.heimu:active {
+    color: var(--vp-c-bg) !important;
+}
+
+.heimu:hover code,
+.heimu:focus code,
+.heimu:active code {
+    color: rgba(60, 60, 67) !important;
+    background-color: var(--vp-c-bg) !important;
+}
+
+.heimu:hover a,
+.heimu:focus a,
+.heimu:active a,
+html.dark .heimu:hover a,
+html.dark .heimu:focus a,
+html.dark .heimu:active a {
+    text-decoration: underline;
+    color: var(--vp-c-bg);
+}
+
+/**/
