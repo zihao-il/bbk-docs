@@ -96,6 +96,7 @@ export default defineConfig({
                     items: [
                         {
                             text: 'API说明', link: '/API文档/index.md',
+                            collapsed: false,
                             items: [
                                 {text: '/last_version', link: '/API文档/last_version.md'},
                                 {text: '/get_version', link: '/API文档/get_version.md'},
