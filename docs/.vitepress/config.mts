@@ -46,7 +46,7 @@ export default defineConfig({
         ['meta', {name: 'theme-color', content: '#FFFFFF'}],
         ['link', {rel: 'manifest', href: '/manifest.webmanifest'}],
         ['link', {rel: 'alternate', type: 'application/rss+xml', href: 'https://rss.mcarc.top/'}],
-        ['link', {rel: 'algolia-site-verification', content: 'CD665D4AE653F08C'}],
+        ['link', {name: 'algolia-site-verification', content: 'CD665D4AE653F08C'}],
         [
             'script',
             {},
