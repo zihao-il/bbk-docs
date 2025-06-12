@@ -46,6 +46,7 @@ export default defineConfig({
         ['meta', {name: 'theme-color', content: '#FFFFFF'}],
         ['link', {rel: 'manifest', href: '/manifest.webmanifest'}],
         ['link', {rel: 'alternate', type: 'application/rss+xml', href: 'https://rss.mcarc.top/'}],
+        ['link', {rel: 'algolia-site-verification', content: 'CD665D4AE653F08C'}],
         [
             'script',
             {},
@@ -120,7 +121,10 @@ export default defineConfig({
         },
 
         search: {
-            provider: 'local',
+            provider: 'algolia',
+            appId: 'WNA7IBB41Y',
+            apiKey: 'b8345816507e10b1d41dd90e8458bd58',
+            indexName: 'docs',
             options: {
                 translations: {
                     button: {
