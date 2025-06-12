@@ -120,10 +120,7 @@ export default defineConfig({
         },
 
         search: {
-            provider: 'algolia',
-            appId: 'WNA7IBB41Y',
-            apiKey: 'b8345816507e10b1d41dd90e8458bd58',
-            indexName: 'bbk_docs_articles',
+            provider: 'local',
             options: {
                 translations: {
                     button: {
