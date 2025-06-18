@@ -58,6 +58,7 @@ export default defineConfig({
     ],
 
     themeConfig: {
+<<<<<<< HEAD
         // https://vitepress.dev/reference/default-theme-config
         logo: '/favicon.ico',
         nav: [
@@ -66,6 +67,15 @@ export default defineConfig({
   { text: 'API文档', link: '/API文档/', activeMatch: '/API文档/' },
   { text: '去oreUI文档', link: '/去oreUI文档/', activeMatch: '/去oreUI文档/' }
 ],
+=======
+        logo: '/favicon.ico',
+        nav: [
+            {text: '首页', link: '/'},
+            {text: '新手教程', link: '/新手教程/', activeMatch: '/新手教程/'},
+            {text: 'API文档', link: '/API文档/', activeMatch: '/API文档/'},
+            {text: '去oreUI文档', link: '/去oreUI文档/', activeMatch: '/去oreUI文档/'}
+        ],
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)
 
         sidebar: {
             '/': [
@@ -89,24 +99,51 @@ export default defineConfig({
                 },
             ],
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)
             '/API文档/': [
                 {
                     text: 'API文档',
                     items: [
                         {
+<<<<<<< HEAD
                             text: 'API说明', link: '/API文档/index.md',
+=======
+                            text: 'API说明',
+                            link: '/API文档/index.md',
+                            collapsed: false,
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)
                             items: [
                                 {text: '/last_version', link: '/API文档/last_version.md'},
                                 {text: '/get_version', link: '/API文档/get_version.md'},
                                 {text: '/search_version', link: '/API文档/search_version.md'},
                             ]
                         },
+<<<<<<< HEAD
                     ]
                 },
                 {text: 'RSS订阅', link: '/API文档/RSS订阅.md'},
                 {text: 'WebSocket服务器', link: '/API文档/WebSocket服务器.md'},
             ]
+=======
+                        {text: 'RSS订阅', link: '/API文档/RSS订阅.md'},
+                        {text: 'WebSocket服务器', link: '/API文档/WebSocket服务器.md'},
+                    ]
+                }
+            ],
+
+            '/去oreUI文档/': [
+                {
+                    text: '去oreUI文档',
+                    items: [
+                        {text: '去oreUI', link: '/去oreUI文档/index.md'},
+                        {text: '改包教程', link: '/去oreUI文档/改包教程.md'},
+                    ]
+                },
+            ],
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)
         },
 
         socialLinks: [
@@ -159,8 +196,12 @@ export default defineConfig({
 
         notFound: {
             title: '页面未找到',
+<<<<<<< HEAD
             quote:
                 '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+=======
+            quote: '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)
             linkLabel: '前往首页',
             linkText: '带我回首页'
         },
@@ -174,5 +215,9 @@ export default defineConfig({
         darkModeSwitchTitle: '切换到深色模式',
         skipToContentLabel: '跳转到内容',
     }
+<<<<<<< HEAD
 
 })
+=======
+})
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)

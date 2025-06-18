@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)
 # 公告以及后续更新
 
 ## 版本更新规则说明
@@ -8,6 +11,43 @@
 - 所有低于最新第四位版本号的客户端**将无法更新**。
 - **版本号位置**：游戏主菜单右下角查看。
 
+<<<<<<< HEAD
+=======
+## config.json配置文件说明 (部分为猜测)
+配置文件存放于此文件夹
+```data
+/storage/emulated/0/Android/data/com.mojang.minecraftpe/mods/ForceCloseOreUI/
+```
+`/create-new-world`
+- 创建新存档（包括地形生成、世界类型选择等）
+
+`/edit-world`
+- 编辑存档设置（修改游戏规则、难度等）
+
+`/gameplay/bedtime`
+- 睡觉界面（跳过夜晚/防止幻翼生成）
+
+`/gameplay/deathly`
+- 死亡界面（物品掉落/重生点设置）
+
+`/play`
+- 存档界面（加载单人或多人存档）
+
+`/player-permissions`
+- 玩家权限管理（OP权限/命令执行权限）
+
+`/progress`
+- 进度/成就系统（解锁游戏挑战目标）
+
+`/send-invites`
+- 多人游戏邀请（Realms或局域网联机）
+
+`/start-from-template`
+- 模板创建世界（使用预设结构/地图种子生成）
+
+`false`是关(关闭oreUI)，`true`是开(开启oreUI)
+
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)
 ## 重要免责声明
 以下情况需玩家**自行承担责任**：
 - 游戏存档数据丢失/损坏
@@ -21,6 +61,7 @@
    - `minecraftWorlds/`（存档）
    - `resource_packs/`（材质包）
    - `behavior_packs/`（模组）
+<<<<<<< HEAD
 3. 更新完成后重启游戏
 
 ---
@@ -83,3 +124,6 @@ patchelf --add-needed libForceCloseOreUI.so libminecraftpe.so
 | 命令报错      | 检查命令是否完整复制      |
 
 > **免责声明再次提醒**：因改包导致的存档丢失、模组失效等问题需**用户自行承担**
+=======
+3. 更新完成后重启游戏
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)

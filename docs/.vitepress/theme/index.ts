@@ -7,13 +7,35 @@ import './styles.css'
 import '@bprogress/core/css';
 import {BProgress} from '@bprogress/core';
 import mediumZoom from 'medium-zoom';
+<<<<<<< HEAD
 // import PostButton from "./components/PostButton.vue"
 import 'virtual:group-icons.css'
 
+=======
+import 'virtual:group-icons.css'
+
+// import PostButton from "./components/PostButton.vue"
+// import Curtain from "./components/Curtain.vue"
+// import RubyCurtain from "./components/RubyCurtain.vue"
+// import QWindow from './components/QWindow.vue'
+//
+// import { FakeQQUI } from 'fake-qq-ui'
+// import 'fake-qq-ui/styles/fake-qq-ui.css'
+// import 'fake-qq-ui/styles/light.scss'
+// import 'fake-qq-ui/styles/dark.scss'
+
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)
 export default {
     extends: DefaultTheme,
     enhanceApp({app , router }) {
         // app.component('PostButton' , PostButton)
+<<<<<<< HEAD
+=======
+        // app.component('Curtain' , Curtain)
+        // app.component('RubyCurtain' , RubyCurtain)
+        // app.component('QWindow' , QWindow)
+        // app.use(FakeQQUI)
+>>>>>>> ddc818e (增加oreUI配置文件说明，分割教程指导)
     },
     setup() {
         BProgress.configure({
