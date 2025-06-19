@@ -107,6 +107,12 @@ export default defineConfig({
                 },
                 {text: 'RSS订阅', link: '/API文档/RSS订阅.md'},
                 {text: 'WebSocket服务器', link: '/API文档/WebSocket服务器.md'},
+            ],
+
+            '/去oreUI文档/': [
+
+                {text: '公告以及后续更新', link: '/去oreUI文档/index.md'},
+                {text: '改包教程', link: '/去oreUI文档/改包教程.md'},
             ]
         },
 
