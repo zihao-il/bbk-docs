@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "zihao_il",
   "license": "MIT",
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@10.12.4",
   "devDependencies": {
     "medium-zoom": "^1.1.0",
     "vitepress": "^1.6.3",
