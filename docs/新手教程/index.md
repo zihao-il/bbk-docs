@@ -14,18 +14,18 @@
 
 命名通常为：`Minecraft PE(B) x.xx.xx v7(8)a.apk`
 
-`Minecraft`：游戏名  
-`PE`：代表正式版  
-`PEB`：代表测试版  
-`x.xx.xx`：代表版本号  
-`v7a`：32位安装包  
-`v8a`：代表arm64架构（64位安装包）现在买到的手机都是这个架构，玩起来就是更加流畅点，没什么区别  
-`路径修改`：1.18版本以上才有的，现在文件数据为`/storage/emulated/0/Android/data/com.mojang.minecraftpe/`
-目录，以前直接在内部存储设备下建games文件夹存放数据，新版本删除游戏会导致数据丢失，路径修改就是把设置在外部的存储文件位置改为内部存储设备的games文件夹下
-`/storage/emulated/0/games/com.mojang/`，跟以前一样卸载游戏不会丢失数据，但每次进游戏会有迁移弹窗(可以尝试删除数据路径中
-`AndroidApi30ScopedStorage.migration.json`文件并给予游戏文件存储权限。  
-`去音乐包`：去除安装包内置的音乐包，可以 [点我](https://bbk.endyun.ltd/s/musicpack) 下载音乐包，（主要是唱片的音乐）  
-`原版`：原版安装包，需要谷歌验证，不是正版用户无法使用，进去则会弹出证书错误
+- `Minecraft`：游戏名
+- `PE`：代表正式版
+- `PEB`：代表测试版
+- `x.xx.xx`：代表版本号
+- `v7a`：32位安装包
+- `v8a`：代表arm64架构（64位安装包）现在买到的手机都是这个架构，玩起来就是更加流畅点，没什么区别
+- `路径修改`：1.18版本以上才有的，现在文件数据为`/storage/emulated/0/Android/data/com.mojang.minecraftpe/`
+  目录，以前直接在内部存储设备下建games文件夹存放数据，新版本删除游戏会导致数据丢失，路径修改就是把设置在外部的存储文件位置改为内部存储设备的games文件夹下
+  `/storage/emulated/0/games/com.mojang/`，跟以前一样卸载游戏不会丢失数据，但每次进游戏会有迁移弹窗(可以尝试删除数据路径中
+  `AndroidApi30ScopedStorage.migration.json`文件并给予游戏文件存储权限。
+- `去音乐包`：去除安装包内置的音乐包，可以 [点我](https://bbk.endyun.ltd/s/musicpack) 下载音乐包，（主要是唱片的音乐）
+- `原版`：原版安装包，需要谷歌验证，不是正版用户无法使用，进去则会弹出证书错误
 
 ## 游玩建议
 
@@ -61,9 +61,11 @@
 ## 覆盖安装失败
 
 如果你选择保留数据卸载Minecraft导致无法再次安装请使用adb命令：
+
 ```bash [adb]
 adb uninstall com.mojang.minecraftpe
 ```
+
 如果不会请点我[下载](https://zihao-il.lanzouo.com/iaEZc2bb1ykf)自助工具
 或重新安装你之前的安装包或更高版本的包然后再次卸载，保留应用数据请勿打钩即可
 
