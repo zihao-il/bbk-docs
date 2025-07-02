@@ -34,7 +34,10 @@
 3. 进去请把存储位置改为外部，在设置-存储中设置
 4. 用数据进不了服务器 请把使用数据打开在设置-通用中设置
 5. 看不见别人的自定义皮肤，请把仅允许受信任的皮肤关闭，在设置-通用中设置
-6. 测试版顶部水印去除材质 [点我下载](https://zihao-il.lanzouy.com/i80murc)
+6. 测试/预览版顶部水印去除材质：
+    - [全部链接](https://sdyueqian-my.sharepoint.cn/:f:/g/personal/admin_sdyueqian_partner_onmschina_cn/EhIRFrDjZq9Iukz5lqDZND4B-PODBY2vPwD-9dQXlmiKCA)
+    - [旧版](https://zihao-il.lanzouo.com/iLrzN80murc)
+    - [新版\[0.0.2\]>1.21.100](https://zihao-il.lanzouo.com/iFNHc304wosh)：如果材质设置选择`方法2`请在视频设置中打开开关
 7. 如下图修改
 
 ![设置1](/images/设置1.jpg)  
