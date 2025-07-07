@@ -126,7 +126,12 @@ export default defineConfig({
         },
 
         search: {
-            provider: 'local',
+            provider: 'algolia',
+            options: {
+                appId: 'E8ZTH6HP98',
+                apiKey: '5e80fe8642ed90be49b6c5e18887d607',
+                indexName: 'BBK-Docs'
+            },
             options: {
                 translations: {
                     button: {
