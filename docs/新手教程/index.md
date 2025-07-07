@@ -10,6 +10,11 @@
 
 > 腾讯文档版本：[Minecraft版本命名解释及建议](https://docs.qq.com/doc/DY3RZaGhBQnphdlpI)
 
+
+::: details 点我查看目录
+[[toc]]
+:::
+
 ## 命名解释
 
 命名通常为：`Minecraft PE(B) x.xx.xx v7(8)a.apk`
