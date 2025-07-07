@@ -1,5 +1,6 @@
 import {defineConfig} from 'vitepress'
 import {groupIconMdPlugin, groupIconVitePlugin} from 'vitepress-plugin-group-icons'
+import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -23,6 +24,17 @@ export default defineConfig({
 
     vite: {
         plugins: [
+            pagefindPlugin({
+                btnPlaceholder: '搜索文档',
+                placeholder: '搜索文档',
+                emptyText: '没有找到任何结果',
+                heading: '共: {{searchResult}} 条结果',
+                forceLanguage: 'zh-cn',
+                toSelect: '回车选择',
+                toNavigate: '上下键切换',
+                toClose: 'ESC 关闭搜索',
+                searchBy: '搜索提供者',
+            }),
             groupIconVitePlugin({
                 customIcon: {
                     javascript: 'logos:javascript',
