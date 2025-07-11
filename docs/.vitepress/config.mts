@@ -76,7 +76,7 @@ export default defineConfig({
             {text: '首页', link: '/'},
             {text: '新手教程', link: '/新手教程/', activeMatch: '/新手教程/'},
             {text: 'API文档', link: '/API文档/', activeMatch: '/API文档/'},
-            // {text: '去oreUI文档', link: '/去oreUI文档/', activeMatch: '/去oreUI文档/'}
+
         ],
 
         sidebar: {
@@ -121,11 +121,6 @@ export default defineConfig({
                 {text: 'WebSocket服务器', link: '/API文档/WebSocket服务器.md'},
             ],
 
-            '/去oreUI文档/': [
-
-                {text: '公告以及后续更新', link: '/去oreUI文档/index.md'},
-                {text: '改包教程', link: '/去oreUI文档/改包教程.md'},
-            ]
         },
 
         socialLinks: [
