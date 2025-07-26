@@ -23,6 +23,6 @@
     "sass-embedded": "^1.89.2",
     "vitepress-plugin-group-icons": "^1.6.1",
     "vitepress-plugin-pagefind": "^0.4.14",
-    "vue": "3.5.16"
+    "vue": "^3.5.18"
   }
 }

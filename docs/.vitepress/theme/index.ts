@@ -10,7 +10,7 @@ import mediumZoom from 'medium-zoom';
 import 'virtual:group-icons.css'
 
 import PostButton from "./components/PostButton.vue"
-import backtotop from "./components/backtotop.vue";
+import BackTop from "./components/BackTop.vue";
 // import Curtain from "./components/Curtain.vue"
 // import RubyCurtain from "./components/RubyCurtain.vue"
 // import QWindow from './components/QWindow.vue'
@@ -24,7 +24,7 @@ export default {
     extends: DefaultTheme,
     Layout() {
         return h(DefaultTheme.Layout, null, {
-            'doc-footer-before': () => h(backtotop),
+            'doc-footer-before': () => h(BackTop),
         })
     },
     enhanceApp({app, router}) {
