@@ -83,3 +83,9 @@ requests.post("https://api.mcarc.top/get_version",
   ]
 }
 ```
+
+
+## 尝试
+
+<PostButton url="get_version" method="POST" :body="{ v: '1.21.x', b: '1' }" />
+

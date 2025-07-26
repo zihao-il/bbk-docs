@@ -83,3 +83,8 @@ requests.post("https://api.mcarc.top/last_version",
   ]
 }
 ```
+
+## 尝试
+
+<PostButton url="last_version" method="POST" :body="{ b: '1' }" />
+
