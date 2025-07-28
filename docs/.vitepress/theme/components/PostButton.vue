@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import {ref, onMounted} from "vue";
+import {ref} from "vue";
 
 const props = defineProps<{
     url?: string;
@@ -7,6 +7,8 @@ const props = defineProps<{
     body?: Record<string, any>;
 }>();
 
+
+const isOpen = ref<boolean>(false)
 
 const page = ref<JSON>();
 const bodyInput = ref(
@@ -38,6 +40,7 @@ const fetchVersion = async () => {
     });
 
     page.value = await response.json();
+    isOpen.value = true
 };
 </script>
 
@@ -52,7 +55,7 @@ const fetchVersion = async () => {
         type="text"
     />
     <button class="sendBtn" @click="fetchVersion">发送请求</button>
-    <details class="details custom-block">
+    <details :open="isOpen" class="details custom-block">
         <summary>点我查看数据</summary>
         <div class="vp-code-block-title">
             <div class="vp-code-block-title-bar"><span class="vp-code-block-title-text" data-title="json5">json5</span>
