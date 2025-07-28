@@ -75,6 +75,7 @@ response = requests.get("https://api.mcarc.top/search_version?s=1.20.1&m=1&b=2")
   ]
 }
 ```
+
 ## 尝试
 
 <PostButton url="search_version" method="GET" body="s=1.20.1&m=1&b=2" />
