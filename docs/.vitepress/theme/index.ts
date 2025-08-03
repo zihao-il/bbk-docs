@@ -2,15 +2,16 @@
 import DefaultTheme from 'vitepress/theme';
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import {useData, useRoute} from 'vitepress';
-import {onMounted, h, watch} from 'vue';
+import {onMounted, watch} from 'vue';
 import './styles.css'
 import '@bprogress/core/css';
 import {BProgress} from '@bprogress/core';
 import mediumZoom from 'medium-zoom';
 import 'virtual:group-icons.css'
+import MyLayout from './components/Layout.vue'
 
 import PostButton from "./components/PostButton.vue"
-import BackTop from "./components/BackTop.vue";
+// import BackTop from "./components/BackTop.vue";
 // import Curtain from "./components/Curtain.vue"
 // import RubyCurtain from "./components/RubyCurtain.vue"
 // import QWindow from './components/QWindow.vue'
@@ -22,11 +23,12 @@ import BackTop from "./components/BackTop.vue";
 
 export default {
     extends: DefaultTheme,
-    Layout() {
-        return h(DefaultTheme.Layout, null, {
-            'doc-footer-before': () => h(BackTop),
-        })
-    },
+    Layout: MyLayout,
+    // Layout() {
+    //     return h(DefaultTheme.Layout, null, {
+    //         'doc-footer-before': () => h(BackTop),
+    //     })
+    // },
     enhanceApp({app, router}) {
         app.component('PostButton', PostButton)
         // app.component('Curtain' , Curtain)

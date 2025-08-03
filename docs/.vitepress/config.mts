@@ -1,6 +1,6 @@
 import {defineConfig} from 'vitepress'
 import {groupIconMdPlugin, groupIconVitePlugin} from 'vitepress-plugin-group-icons'
-import { pagefindPlugin } from 'vitepress-plugin-pagefind'
+import {pagefindPlugin} from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -172,7 +172,7 @@ export default defineConfig({
         },
 
         notFound: {
-            title: '页面未找到',
+            title: '页面未找到或尝试刷新',
             quote:
                 '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
             linkLabel: '前往首页',
