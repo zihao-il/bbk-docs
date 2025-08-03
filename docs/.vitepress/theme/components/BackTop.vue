@@ -122,7 +122,7 @@ onBeforeUnmount(() => {
 
 .progress-ring-background {
     fill: none;
-    stroke: rgba(62, 175, 124, 0.15);
+    stroke: rgba(86, 114, 205, 0.15);
     stroke-width: 3;
 }
 
