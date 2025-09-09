@@ -43,7 +43,8 @@
     - [全部链接](https://sdyueqian-my.sharepoint.cn/:f:/g/personal/admin_sdyueqian_partner_onmschina_cn/EhIRFrDjZq9Iukz5lqDZND4B-PODBY2vPwD-9dQXlmiKCA)
     - [旧版](https://zihao-il.lanzouo.com/iLrzN80murc)
     - [新版\[0.0.2\]>1.21.100](https://zihao-il.lanzouo.com/ixyzM30b7t5g)：如果材质设置选择`方法1`请在视频设置中打开开关
-7. 如下图修改
+7. 对于Root用户建议使用[McHook](https://www.123865.com/s/dhm9-DGZ0A)模块
+8. 如下图修改
 
 ![设置1](/images/设置1.jpg)  
 ![设置2](/images/设置2.jpg)
