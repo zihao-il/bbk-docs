@@ -8,6 +8,30 @@
 除了带有“原版”命名的其他的都是“去验证版本”，有能力者请购买正版。
 :::
 
+**因为安装包上了加固，暂无解决方案，请使用海外网站下载，或者寻找拼好包游玩**
+
+::: details 一些海外网站下载地址
+
+* 下面是一些可以下载非原版包的海外网站，请选择一个自己喜欢的下载：
+* [https://mcpehub.org/download-mcpe/](https://mcpehub.org/download-mcpe/)
+* [https://mcpedl.org/downloading/](https://mcpedl.org/downloading/)
+* [https://mcpe-planet.com/downloads/](https://mcpe-planet.com/downloads/)
+* [https://mcpelife.com/download/](https://mcpelife.com/download/)
+* [https://modscraft.net/en/mcpe/](https://modscraft.net/en/mcpe/)
+
+:::
+
+::: details 什么是拼好包？
+
+* 拼好包是指把海外平台的一些修改的好的内容取其精华部分合并到一起
+* `res`是原版包里的，`AndroidManifest.xml`是手动修改的
+* `classes.dex`，`classes3.dex`，`classes4.dex`是APKAWARD上的原文件，没有修改
+* `classes2.dex`是APKAWARD上基于`classes2.dex`和`classes5.dex`合并来的，做了删改
+* `libconscrypt_jni.so`，`libmaesdk.so`，`libminecraftpe.so`是MCPELIFE的原文件
+* 请自行寻找拼好包文件
+
+:::
+
 > 腾讯文档版本：[Minecraft版本命名解释及建议](https://docs.qq.com/doc/DY3RZaGhBQnphdlpI)
 
 
