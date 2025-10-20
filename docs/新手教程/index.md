@@ -9,7 +9,7 @@
 :::
 
 
-> 腾讯文档版本：[Minecraft版本命名解释及建议](https://docs.qq.com/doc/DY3RZaGhBQnphdlpI)
+> MC223站点版：[Minecraft版本命名解释及建议](https://mc233.endyun.ltd/help/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/)
 
 
 ::: details 点我查看目录
