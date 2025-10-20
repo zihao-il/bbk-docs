@@ -76,6 +76,7 @@
 adb uninstall com.mojang.minecraftpe
 ```
 
-如果不会请点我[下载](https://zihao-il.lanzouo.com/iaEZc2bb1ykf)自助工具
-或重新安装你之前的安装包或更高版本的包然后再次卸载，保留应用数据请勿打钩即可
+安卓版自助工具：[McHook（点我下载）](https://www.123865.com/s/dhm9-DGZ0A)，需要使用[Shizuku](https://github.com/RikkaApps/Shizuku)激活  
+WIN版本自助工具：[点我下载](https://zihao-il.lanzouo.com/iaEZc2bb1ykf)  
+或者重新安装你之前的安装包或更高版本的包然后再次卸载，保留应用数据请勿打钩即可
 
