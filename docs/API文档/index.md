@@ -26,6 +26,6 @@ http://bbk.endyun.ltd:9000/api
 
 本站共有三个API分别为：
 
-- `/last_version`：获取最新版本数据
-- `/get_version`：获取大版本数据
-- `/search_version`：搜索版本数据
+- [`/last_version`](./last_version.md)：获取最新版本数据
+- [`/get_version`](./get_version.md)：获取大版本数据
+- [`/search_version`](./search_version.md)：搜索版本数据
