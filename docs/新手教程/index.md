@@ -30,7 +30,7 @@
   目录，以前直接在内部存储设备下建games文件夹存放数据，新版本删除游戏会导致数据丢失，路径修改就是把设置在外部的存储文件位置改为内部存储设备的games文件夹下
   `/storage/emulated/0/games/com.mojang/`，跟以前一样卸载游戏不会丢失数据，但每次进游戏会有迁移弹窗(可以尝试删除数据路径中
   `AndroidApi30ScopedStorage.migration.json`文件并给予游戏文件存储权限。
-- `去音乐包`：去除安装包内置的音乐包，可以 [点我](https://bbk.endyun.ltd/s/musicpack) 下载音乐包，（主要是唱片的音乐）
+- `去音乐包`：去除安装包内置的音乐包，可以 [点我](https://bbk.endyun.ltd/s/musicpack) 下载音乐包，（主要是唱片的音乐）1.19.20及以下版本[点我下载](https://zihaoil-my.sharepoint.com/:u:/g/personal/zihao_il_e3_mcarc_top/IQBu-OdhiHVdSpqgHWJBGaNEAXwQG1yLwpY_UF9oaGJR0qk?download=1)
 - `原版`：原版安装包，需要谷歌验证，不是正版用户无法使用，进去则会弹出证书错误
 
 ## 游玩建议
@@ -41,7 +41,7 @@
 4. 用数据进不了服务器 请把使用数据打开在设置-通用中设置
 5. 看不见别人的自定义皮肤，请把仅允许受信任的皮肤关闭，在设置-通用中设置
 6. 测试/预览版顶部水印去除材质：
-    - [全部链接](https://sdyueqian-my.sharepoint.cn/:f:/g/personal/admin_sdyueqian_partner_onmschina_cn/EhIRFrDjZq9Iukz5lqDZND4B-PODBY2vPwD-9dQXlmiKCA)
+    - [全部链接](https://zihaoil-my.sharepoint.com/:f:/g/personal/zihao_il_e3_mcarc_top/IgDLDLkMA4kXS43Te56dXlrRAZR_zHBnYf1Ll-p3Y0Lrz4Y)
     - [旧版](https://zihao-il.lanzouo.com/iLrzN80murc)
     - [新版\[0.0.2\]>1.21.100](https://zihao-il.lanzouo.com/ixyzM30b7t5g)：如果材质设置选择`方法1`请在视频设置中打开开关
 7. 对于Root用户建议使用[McHook](https://www.123865.com/s/dhm9-DGZ0A)模块
@@ -61,7 +61,7 @@
 
 ## 共存制作
 
-如只需要修改安装包可以 [点我下载](https://sdyueqian-my.sharepoint.cn/:u:/g/personal/admin_sdyueqian_partner_onmschina_cn/EfZC9hdJ1EtHrCqJPL6Lp4oBCi4kBRnmVf2XbQbEk_VTGg?download=1)
+如只需要修改安装包可以 [点我下载](https://zihaoil-my.sharepoint.com/:u:/g/personal/zihao_il_e3_mcarc_top/IQBCTHBc83fPSLmMLzJgObUCAV4DevN49CK0-L34iN4ubiA?download=1)
 签名秘钥方便覆盖安装，把文件移动到`MT2/keys`文件夹下，签名密码：`zihao_il`  
 好消息：mt管理器已支持免费使用共存自定义包名功能，请更新最新版尝试  
 首先下载APK编辑器 [开源地址](https://github.com/PatrickAlex2019/ApkEditor/releases)，[蓝奏云](https://zihao-il.lanzouo.com/i5KQx1i6g7mb0)
