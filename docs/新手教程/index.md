@@ -29,7 +29,7 @@
 - `路径修改`：1.18版本以上才有的，现在文件数据为`/storage/emulated/0/Android/data/com.mojang.minecraftpe/`
   目录，以前直接在内部存储设备下建games文件夹存放数据，新版本删除游戏会导致数据丢失，路径修改就是把设置在外部的存储文件位置改为内部存储设备的games文件夹下
   `/storage/emulated/0/games/com.mojang/`，跟以前一样卸载游戏不会丢失数据，但每次进游戏会有迁移弹窗(可以尝试删除数据路径中
-  `AndroidApi30ScopedStorage.migration.json`文件并给予游戏文件存储权限。
+  `AndroidApi30ScopedStorage.migration.json`文件，第一次使用请去设置中**手动**给予游戏**存储权限**。
 - `去音乐包`：去除安装包内置的音乐包，可以 [点我](https://bbk.endyun.ltd/s/musicpack) 下载音乐包，（主要是唱片的音乐）1.19.20及以下版本[点我下载](https://zihaoil-my.sharepoint.com/:u:/g/personal/zihao_il_e3_mcarc_top/IQBu-OdhiHVdSpqgHWJBGaNEAXwQG1yLwpY_UF9oaGJR0qk?download=1)
 - `原版`：原版安装包，需要谷歌验证，不是正版用户无法使用，进去则会弹出证书错误
 
