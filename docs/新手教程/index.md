@@ -2,7 +2,7 @@
 
 ## 首先
 
-从哪下载请从哪更新，方便覆盖安装，无法下载或**解析软件包出现错误**请更换浏览器，最好别用系统自带的，已知小米浏览器或系统自带的浏览器都可能无法下载Onedrive网盘。
+从哪下载请从哪更新，方便覆盖安装，无法下载或**解析软件包出现错误**请更换浏览器，不推使用系统自带的浏览器，可能会导致下载错误。
 
 ::: tip 注意
 除了带有“原版”命名的其他的都是“去验证版本”，有能力者请购买正版。
@@ -63,10 +63,7 @@
 
 如只需要修改安装包可以 [点我下载](https://zihaoil-my.sharepoint.com/:u:/g/personal/zihao_il_e3_mcarc_top/IQBCTHBc83fPSLmMLzJgObUCAV4DevN49CK0-L34iN4ubiA?download=1)
 签名秘钥方便覆盖安装，把文件移动到`MT2/keys`文件夹下，签名密码：`zihao_il`  
-好消息：mt管理器已支持免费使用共存自定义包名功能，请更新最新版尝试  
-首先下载APK编辑器 [开源地址](https://github.com/PatrickAlex2019/ApkEditor/releases)，[蓝奏云](https://zihao-il.lanzouo.com/i5KQx1i6g7mb0)
-请选择电脑ua进行下载  
-打开软件，选择应用或者APK文件，选择mc，通用编辑，在安装包名那里增加或者修改字母即可，最后点保存
+使用MT管理器进行共存制作或下载版本库APP。
 
 ## 覆盖安装失败
 
