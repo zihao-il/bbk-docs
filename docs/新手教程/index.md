@@ -44,7 +44,7 @@
     - [全部链接](https://zihaoil-my.sharepoint.com/:f:/g/personal/zihao_il_e3_mcarc_top/IgDLDLkMA4kXS43Te56dXlrRAZR_zHBnYf1Ll-p3Y0Lrz4Y)
     - [旧版](https://zihao-il.lanzouo.com/iLrzN80murc)
     - [新版\[0.0.2\]>1.21.100](https://zihao-il.lanzouo.com/ixyzM30b7t5g)：如果材质设置选择`方法1`请在视频设置中打开开关
-7. 对于Root用户建议使用[McHook](https://www.123865.com/s/dhm9-DGZ0A)模块
+7. 对于Root用户建议使用[McHook](https://www.123865.com/s/dhm9-DGZ0A)模块或者使用[版本库APP](https://app.mcarc.top/)，原版包需在Lsposed设置中的还原内联钩子选中MC
 8. 如下图修改
 
 ![设置1](/images/设置1.jpg)  
@@ -73,7 +73,7 @@
 adb uninstall com.mojang.minecraftpe
 ```
 
-安卓版自助工具：[McHook](https://www.123865.com/s/dhm9-DGZ0A)或者使用[版本库APP](https://app.mcarc.top/)
+安卓版自助工具：[McHook](https://www.123865.com/s/dhm9-DGZ0A)或者使用[版本库APP](https://app.mcarc.top/)，原版包需在Lsposed设置中的还原内联钩子选中MC
 ，需要使用[Shizuku](https://github.com/RikkaApps/Shizuku)激活  
 WIN版本自助工具：[点我下载](https://zihao-il.lanzouo.com/iaEZc2bb1ykf)  
 或者重新安装你之前的安装包或更高版本的包然后再次卸载，保留应用数据请勿打钩即可
