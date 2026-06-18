@@ -82,4 +82,4 @@ WIN版本自助工具：[点我下载](https://zihao-il.lanzouo.com/iaEZc2bb1ykf
 
 通过同包名签名覆盖安装应用来提取游戏目录中的数据  
 请根据下载来源选择合适的应用来覆盖安装  
-下载地址：[OneDrive](https://openlist.endyun.ltd/MC%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96)，[蓝奏云](https://zihao-il.lanzouv.com/b06xio14h)
+下载地址：[OneDrive](https://openlist.endyun.ltd/not-oreui/MC%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96)，[蓝奏云](https://zihao-il.lanzouv.com/b06xio14h)
