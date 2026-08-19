@@ -34,6 +34,7 @@ export default defineConfig({
                 toNavigate: '上下键切换',
                 toClose: 'ESC 关闭搜索',
                 searchBy: '搜索提供者',
+                loadingText: '搜索中...',
                 customSearchQuery: chineseSearchOptimize
             }),
             groupIconVitePlugin({
