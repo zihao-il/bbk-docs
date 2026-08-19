@@ -1,6 +1,6 @@
 import {defineConfig} from 'vitepress'
 import {groupIconMdPlugin, groupIconVitePlugin} from 'vitepress-plugin-group-icons'
-import {pagefindPlugin} from 'vitepress-plugin-pagefind'
+import {pagefindPlugin, chineseSearchOptimize} from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -34,6 +34,7 @@ export default defineConfig({
                 toNavigate: '上下键切换',
                 toClose: 'ESC 关闭搜索',
                 searchBy: '搜索提供者',
+                customSearchQuery: chineseSearchOptimize
             }),
             groupIconVitePlugin({
                 customIcon: {
