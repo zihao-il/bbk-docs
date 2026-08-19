@@ -157,7 +157,7 @@ export default defineConfig({
 
         footer: {
             message: 'MIT License',
-            copyright: 'Copyright © 2025 MC版本库-文档站',
+            copyright: `Copyright © 2025-${new Date().getFullYear()} MC版本库-文档站`,
         },
 
         docFooter: {
