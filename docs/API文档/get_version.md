@@ -15,7 +15,7 @@ await fetch('https://api.mcarc.top/get_version', {
         'Content-Type': 'application/x-www-form-urlencoded'
     },
     body: new URLSearchParams({
-        v: '1.21.x', 
+        v: '26.x', 
         b: '1' 
      })
 });
@@ -27,17 +27,17 @@ import requests
 requests.post("https://api.mcarc.top/get_version",
     headers = { 'Content-Type': 'application/x-www-form-urlencoded' },
     data = { 
-        'v':'1.21.x',
+        'v':'26.x',
         'b': '1' 
     })
 ```
 
 :::
 
-| 参数 | 可选 |                          说明 |
-|----|:--:|----------------------------:|
-| v  | 否  |          查询的大版本号(例如：1.21.x) |
-| b  | 是  | 是否为测试版(不填：获取全部，1：测试版，0：正式版) |
+| 参数 | 可选 |                                               说明 |
+|------|:----:|---------------------------------------------------:|
+| v    |  否  |                 查询的大版本号(例如：1.21.x, 26.x) |
+| b    |  是  | 是否为测试版(不填：获取全部，1：测试版，0：正式版) |
 
 ## 响应
 
@@ -86,5 +86,5 @@ requests.post("https://api.mcarc.top/get_version",
 
 ## 尝试
 
-<PostButton url="get_version" method="POST" :body="{ v: '1.21.x', b: '1' }" />
+<PostButton url="get_version" method="POST" :body="{ v: '26.x', b: '1' }" />
 

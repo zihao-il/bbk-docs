@@ -13,7 +13,7 @@
 ::: code-group
 
 ```javascript
-await fetch('https://api.mcarc.top/search_version?s=1.20.1&m=1&b=2', {
+await fetch('https://api.mcarc.top/search_version?s=26.10&m=1&b=2', {
     method: 'GET',
 });
 ```
@@ -21,16 +21,16 @@ await fetch('https://api.mcarc.top/search_version?s=1.20.1&m=1&b=2', {
 ```python
 import requests
 
-response = requests.get("https://api.mcarc.top/search_version?s=1.20.1&m=1&b=2")
+response = requests.get("https://api.mcarc.top/search_version?s=26.10&m=1&b=2")
 ```
 
 :::
 
-| 参数 | 可选 |                            说明 |
-|----|:--:|------------------------------:|
-| s  | 否  |                        查询的版本号 |
-| m  | 是  |                是否启用模糊查询(1：启用) |
-| b  | 是  | 是否为测试版(不填/2：获取全部，1：测试版，0：正式版) |
+| 参数 | 可选 |                                                 说明 |
+|------|:----:|-----------------------------------------------------:|
+| s    |  否  |                                         查询的版本号 |
+| m    |  是  |                            是否启用模糊查询(1：启用) |
+| b    |  是  | 是否为测试版(不填/2：获取全部，1：测试版，0：正式版) |
 
 ## 响应
 
@@ -78,5 +78,5 @@ response = requests.get("https://api.mcarc.top/search_version?s=1.20.1&m=1&b=2")
 
 ## 尝试
 
-<PostButton url="search_version" method="GET" body="s=1.20.1&m=1&b=2" />
+<PostButton url="search_version" method="GET" body="s=26.10&m=1&b=2" />
 
