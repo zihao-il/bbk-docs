@@ -18,13 +18,13 @@ hero:
     alt: 版本库文档
 features:
   - title: 入门便捷
-    details: 更好的帮助玩家入门游戏，提高游戏体验。
-  - title: 快捷下载
-    details: 提供更多更便捷游戏下渠道，方便玩家快速获取游戏资源。
-  - title: 使用方便
-    details: 网页布局简单，操作方便，文字说明清晰。
+    details: 从下载、安装到联机逐步讲解，附版本命名说明与游玩建议，帮助新手快速上手。
+  - title: 问题排查
+    details: 涵盖账户设置、登录错误代码、覆盖安装失败与数据提取等常见问题的解决方案。
+  - title: 开发支持
+    details: 提供版本查询 API、RSS 订阅与 WebSocket 服务器接入说明，方便开发者集成与自动化获取更新。
   - title: 备用文档
-    details: 备用站文档链接
+    details: 提供备用站点文档，主站无法访问时亦可查阅。
     link: https://mc233.endyun.ltd/help/
 ---
 
