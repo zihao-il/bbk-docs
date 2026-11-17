@@ -1,6 +1,5 @@
 // .vitepress/theme/index.ts
 import DefaultTheme from 'vitepress/theme';
-import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import {useData, useRoute} from 'vitepress';
 import {onMounted, watch} from 'vue';
 import './styles.css'
