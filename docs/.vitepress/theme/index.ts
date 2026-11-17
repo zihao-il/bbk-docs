@@ -69,20 +69,5 @@ export default {
             });
         });
 
-        giscusTalk({
-                repo: 'zihao-il/bbk-docs',
-                repoId: 'R_kgDOOzs_iQ',
-                category: 'Announcements',
-                categoryId: 'DIC_kwDOOzs_ic4Cq5cu',
-                mapping: 'pathname',
-                inputPosition: 'bottom',
-                lang: 'zh-CN',
-            },
-            {
-                frontmatter, route
-            },
-            true
-        );
-
     },
 };
